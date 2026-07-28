@@ -1,0 +1,64 @@
+/* Layout arrangement and spacing only */
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.add-task input {
+  flex: 1;
+}
+
+.search-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search-input span {
+  position: absolute;
+  left: 8px;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.search-input input {
+  width: 100%;
+  padding-left: 28px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-decoration-line-through,
+.text {
+  text-decoration: line-through;
+}
